@@ -35,7 +35,7 @@ describe('res', function(){
       .end(done);
     })
 
-    it('should invoke the callback on 404', function(done){
+    xit('should invoke the callback on 404', function(done){
       var app = express()
         , calls = 0;
 

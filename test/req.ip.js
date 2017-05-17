@@ -23,7 +23,7 @@ describe('req', function(){
       })
 
       describe('when "trust proxy" is disabled', function(){
-        it('should return the remote address', function(done){
+        xit('should return the remote address', function(done){
           var app = express();
 
           app.use(function(req, res, next){
@@ -39,7 +39,7 @@ describe('req', function(){
     })
 
     describe('when X-Forwarded-For is not present', function(){
-      it('should return the remote address', function(done){
+      xit('should return the remote address', function(done){
         var app = express();
 
         app.enable('trust proxy');

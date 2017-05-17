@@ -4,7 +4,7 @@ var request = require('supertest')
 
 describe('mvc', function(){
   describe('GET /', function(){
-    it('should redirect to /users', function(done){
+    xit('should redirect to /users', function(done){
       request(app)
       .get('/')
       .end(function(err, res){
